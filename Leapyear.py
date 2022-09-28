@@ -12,4 +12,4 @@ for year_entered_by_user in range(year_entered_by_user, end_index_of_year):
     if year_entered_by_user % 4 == 0:
         print("{} is a leap year".format(year_entered_by_user))
     else:
-        print("{} isn't a year year".format(year_entered_by_user))
+        print("{} isn't a leap year".format(year_entered_by_user))
